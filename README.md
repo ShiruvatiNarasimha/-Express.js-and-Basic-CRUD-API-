@@ -2,7 +2,7 @@
 
 A simple Node.js and Express.js API for managing users. This API supports CRUD operations for user management, including creating, reading, updating, and deleting user data.
 
-![image alt]()
+![image alt](https://github.com/ShiruvatiNarasimha/-Express.js-and-Basic-CRUD-API-/blob/95e525072a9b9204c99cc4abc2bb8f65e3a983cb/Screenshot%202024-11-19%20174940.png)
 
 ## Features
 
