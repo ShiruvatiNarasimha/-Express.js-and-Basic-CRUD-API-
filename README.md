@@ -18,3 +18,45 @@ A simple Node.js and Express.js API for managing users. This API supports CRUD o
 
    ```bash
    git clone <repository-url>
+
+
+
+   cd Node_express_api
+   npm install
+   npm start
+   Access the API at http://localhost:3000 (or your configured port).
+
+ Endpoints
+Method	Endpoint	Description
+GET	/users	Retrieves all users.
+POST	/users	Creates a new user.
+GET	/users/:id	Retrieves a user by ID.
+DELETE	/users/:id	Deletes a user by ID.
+PATCH	/users/:id	Updates a user by ID.
+
+Retrieve All Users
+Request:
+
+http
+Copy code
+GET /users HTTP/1.1
+Host: localhost:3000
+
+
+
+Response:
+
+json
+Copy code
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "email": "jane@example.com"
+  }
+]
